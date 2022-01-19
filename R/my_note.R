@@ -22,5 +22,3 @@ spread(pollution, size,  "amount")
 
 storms2 <- separate(storms, date, c("Year","Month","Day"), sep = "-")
 unite(storms2, "date",Year,Month,Day,sep="-" )
-
-# 
